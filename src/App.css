@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.hello {
+    height: 300px;
+    margin-top: 90px;
+    background: green;
+    width: 500px;
+}
+
+.myTooltip {
+    height: 300px;
+    position: absolute;
+    margin-top: 90px;
+    background: blue;
+    width: 500px;
+}
+
+.myTooltip {
+    &[data-top='D'] {
+        background: var(--color-party-D);
+    }
+}
